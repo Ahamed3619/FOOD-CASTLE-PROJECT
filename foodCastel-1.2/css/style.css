@@ -1,0 +1,328 @@
+h2 {
+	font-family: 'Pacifico', cursive;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #FFFFFF;
+}
+.brand-name {
+	font-size: 100px;
+}
+.text-bold {
+	font-weight: bolder;
+}
+.main-navbar .navbar-default {
+	margin-bottom: 0;
+	background: #FFFFFF;
+}
+.main-navbar .navbar-nav li a {
+	padding: 30px 20px;
+	border-left: 1px solid #CDCDCD;
+}
+.main-navbar .navbar-nav li:last-child {
+	border-right: 1px solid #CDCDCD;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 750px) {
+	.main-navbar .navbar-brand img {
+		width: 100px;
+	}	
+}
+
+
+
+#home {
+	background: url('../img/home-bg.jpg');
+	background-size: cover;
+}
+.overlay { 
+	background: rgba(0,0,0,0.40);
+	color: #FFFFFF;
+}
+.container {
+	padding: 100px 0;
+}
+.section-title {
+	text-align: center;
+	padding-bottom: 40px;
+}
+.text-orange {
+ color: #ff9800;
+}
+.no-padding {
+	padding: 0 !important;
+}
+
+#specialty img {
+	border: 10px solid #FFFFFF;
+	box-shadow: 0 0 3px #d9d9d9;
+	-webkit-box-shadow: 0 0 3px #d9d9d9;
+	-moz-box-shadow: 0 0 3px #d9d9d9;
+	-o-box-shadow: 0 0 3px #d9d9d9;
+}
+
+#food-serve {
+	background: url('../img/food-serve-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.icon-box {
+	width: 260px;
+	margin: 30px 15px;
+	border: 3px solid #FFFFFF;
+	padding: 30px 10px;
+}
+.icon-box i {
+	font-size: 90pt;
+}
+.carousel-indicators {
+	position: absolute;
+	bottom: -50px;
+}
+.slider-image {
+	padding: 20px 25px;
+}
+
+#featured-foods {
+	background: url('../img/featured-food-bg.jpg');
+	background-size: cover;
+}
+.featured-food-details .brand-name {
+	font-size: 90px;
+}
+.featured-food-details h3 {
+	font-size: 40px;
+}
+.featured-food-details h1 {
+	font-size: 60px;
+}
+
+
+.btn-filled {
+	background: #ff9800;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	border-radius: 3px;
+	border: 1px solid #ff9800;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn-filled:hover, .btn-filled:focus, .btn-filled:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  	background: #ff9800;
+  	border-color: #ff9800;
+  	color: #FFFFFF;
+}
+
+/* Shutter Out Horizontal */
+.btn-transparent {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 1px;
+  border: 1px solid #FAFAFA;
+  background: transparent;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.btn-transparent:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ff9800;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  transition: all ease-out 0.3s;
+  -webkit-transition: all ease-out 0.3s;
+  -moz-transition: all ease-out 0.3s;
+  -o-transition: all ease-out 0.3s;
+}
+.btn-transparent:hover, .btn-transparent:focus, .btn-transparent:active {
+  color: white;
+  border-color: #ff9800;
+}
+.btn-transparent:hover:before, .btn-transparent:focus:before, .btn-transparent:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+
+.collapsible-items .panel-default {
+	border: none;
+	box-shadow: none;
+}
+.collapsible-items .panel-heading-bg {
+	background: url('../img/heading-bg.jpg');
+	background-size: cover;
+	border-radius: 0;
+	border: none;
+	padding: 50px 0px;
+	margin-left: -1px;
+}
+.collapsible-items .panel-heading-bg .panel-title {
+	color: #ff9800;
+	font-size: 40px;
+	font-weight: bold;
+}
+.collapsible-items .panel-heading-bg .panel-title a {
+	text-decoration: none;
+}
+.collapsible-items .container {
+	padding: 20px 0;
+}
+.collapsible-items .food-image {
+	margin-bottom: 50px;
+	padding: 20px;
+}
+.food-image {
+	margin-bottom: 50px;
+	padding: 20px;
+}
+
+
+#foodCastel-extra {
+	background: url('../img/extras-bg.jpg');
+	background-size: cover;
+}
+#foodCastel-extra .col-lg-12 {
+	padding: 30px 0;
+}
+#foodCastel-extra i {
+	font-size: 90px;
+}
+
+#foodCastel-extra .fa {
+	transition: all ease-in-out 0.5s;
+	-webkit-transition: all ease-in-out 0.5s;
+	-o-transition: all ease-in-out 0.5s;
+	-moz-transition: all ease-in-out 0.5s;
+}
+#foodCastel-extra .fa:hover {
+	color: #ff9800;
+}
+
+
+.booking-form {
+	padding: 50px 0 0 0;
+}
+.booking-form .form-control {
+	border-radius: 0;
+	box-shadow: none;
+	padding: 10px;
+	transition: all ease-in-out 0.5s;
+	-webkit-transition: all ease-in-out 0.5s;
+	-moz-transition: all ease-in-out 0.5s;
+	-o-transition: all ease-in-out 0.5s;
+	margin-bottom: 15px;
+}
+.booking-form .form-control:focus{
+	border-color: #ff9800;
+}
+.booking-form textarea {
+	resize: vertical;
+}
+#quote {
+	background: url('../img/quote-bg.jpg');
+	background-size: cover;
+	/*max-height: 546px;*/
+	background-color: #FFFFFF;
+}
+#quote .container {
+	padding: 0 !important;
+}
+#quote .client-img {
+	position: relative;
+	/*top: -50px;*/
+	bottom: 0;
+}
+.quote-box {
+	background: rgba(255,152,0,0.6);
+	margin-top: 15%;
+	padding: 30px;
+}
+#foodCastel-dtails .list-unstyled li {
+	padding: 3px 0 0 0;
+}
+#foodCastel-dtails .media-left{
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	text-align: center;
+}
+#foodCastel-dtails .media-left h1 {
+	line-height: 0.7em;
+	padding: 0;
+	margin: 0;
+}
+#foodCastel-dtails .media-left small {
+	font-size: 12pt;
+}
+#foodCastel-dtails .media-body {
+	padding: 10px;
+}
+
+.foodCastel-map {
+	height: 500px;
+}
+
+#footer {
+	background: #ff9800;
+}
+#footer .container {
+	padding: 40px 0;
+}
+#footer p {
+	margin: 0;
+	color: #FFFFFF;
+}
+#footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.modal-content {
+	top: 250px;
+	border-radius: 1px;
+	background: rgba(255,255,255,0.5);
+}
+.myForm {
+	margin: 50px 0;
+}
+.myForm input {
+	background: rgba(0,0,0,0.45);
+	color: #FAFAFA;
+	border-radius: 1px;
+}
+.myForm .form-control::-moz-placeholder {
+	color: #FAFAFA;
+}
